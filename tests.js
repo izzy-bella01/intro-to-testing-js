@@ -13,3 +13,30 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+//syntax:
+// describe('nameOfFunctionThatsBeingTested', function () {
+//     it('should - describe what you are specifically testing', function() {
+//         expect(something from the function).jasmineMethod("actual" + "expected output here");
+//     });
+// });
+
+// Unit tests for double function
+describe('double', function() {
+    it('should return a number', function() {
+        expect(typeof double()).toBe('number');
+    });
+    it('should return a function', function() {
+        expect(typeof double).toBe('function');
+    });
+    it('should return double', function() {
+        expect(double(5)).toEqual(10);
+    });
+});
+
+// Unit test for sayHello function
+describe('sayHello', function() {
+    it('should return a function', function() {
+        expect(typeof sayHello).toBe('function')
+    })
+})
