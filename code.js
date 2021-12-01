@@ -7,6 +7,11 @@ function double(num) {
     return num * 2;
 }
 
+
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    if (input === true || input === false) {
+        return "Hello, World!";
+    } else {
+        return "Hello, " + input + "!";
+    }
 }
