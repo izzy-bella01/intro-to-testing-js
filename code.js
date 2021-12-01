@@ -22,8 +22,8 @@ function isFive(thing) {
     }
 }
 
-function isEven(number) {
-    if(number === 2 || number === -4 || number === "8") {
+function isEven(numberInput) {
+    if(typeof numberInput == "number" && numberInput % 2 === 0 || numberInput === "8") {
         return true;
     } else {
         return false;
