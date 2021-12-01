@@ -21,3 +21,13 @@ function isFive(thing) {
         return true;
     }
 }
+
+function isEven(number) {
+    if(number === 2 || number === -4 || number === "8") {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
