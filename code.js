@@ -7,6 +7,6 @@ function double(num) {
     return num * 2;
 }
 
-function sayHello() {
-
+function sayHello(input) {
+    return "Hello, " + input + "!";
 }
